@@ -1,10 +1,10 @@
 export const Header = () => {
   return <div className="flex justify-center items-center relative top-3">
-    <nav>
-      <a href="#" className="px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold">Home</a>
-      <a href="#" className="px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold">Projects</a>
-      <a href="#" className="px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold">About</a>
-      <a href="#" className="px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold">Contact</a>
+    <nav className="flex gap-1 0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur">
+      <a href="#" className="nav-item" >Home</a>
+      <a href="#"  className="nav-item" >Projects</a>
+      <a href="#" className="nav-item" >About</a>
+      <a href="#" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900" >Contact</a>
     </nav>
   </div>;
 };
