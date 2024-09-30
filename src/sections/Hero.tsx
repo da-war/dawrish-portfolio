@@ -12,39 +12,51 @@ import SparkleIcon from "../assets/icons/sparkle.svg";
 export const HeroSection = () => {
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
-      <div
-        className="absolute inset-0 -z-30 opacity-5"
-        style={{
-          backgroundImage: `url(${grainImage.src})`,
-        }}
-      ></div>
+      <div className="absolute inset-0">
+        <div
+          className="absolute inset-0 -z-30 opacity-5"
+          style={{
+            backgroundImage: `url(${grainImage.src})`,
+          }}
+        ></div>
 
-      <div className="hero-circle size-[620px]"></div>
-      <div className="hero-circle size-[820px]"></div>
-      <div className="hero-circle size-[1020px]"></div>
+        <div className="hero-circle size-[620px]"></div>
+        <div className="hero-circle size-[820px]"></div>
+        <div className="hero-circle size-[1020px]"></div>
 
-      <div>
-        <HeroOrbit rotate={-72} size={800}>
-          <StarIcon className="size-28 text-emerald-500" />
-        </HeroOrbit>
-        <HeroOrbit size={550} rotate={20}>
-          <StarIcon className="size-18 text-emerald-500" />
-        </HeroOrbit>
-        <HeroOrbit size={590} rotate={98}>
-          <StarIcon className="size-8 text-emerald-500" />
-        </HeroOrbit>
-        <HeroOrbit size={430} rotate={-14}>
-          <SparkleIcon className="size-8 text-emerald-500 opacity-30" />
-        </HeroOrbit>
-        <HeroOrbit size={440} rotate={0}>
-          <StarIcon className="size-5 text-emerald-500" />
-        </HeroOrbit>
-        <HeroOrbit size={590} rotate={98}>
-          <StarIcon className="size-8 text-emerald-500" />
-        </HeroOrbit>
-        <HeroOrbit size={590} rotate={98}>
-          <StarIcon className="size-8 text-emerald-500" />
-        </HeroOrbit>
+        <div>
+          <HeroOrbit rotate={-72} size={800}>
+            <StarIcon className="size-28 text-emerald-500" />
+          </HeroOrbit>
+          <HeroOrbit size={550} rotate={20}>
+            <StarIcon className="size-18 text-emerald-500" />
+          </HeroOrbit>
+          <HeroOrbit size={590} rotate={98}>
+            <StarIcon className="size-8 text-emerald-500" />
+          </HeroOrbit>
+          <HeroOrbit size={430} rotate={-14}>
+            <SparkleIcon className="size-8 text-emerald-300/20" />
+          </HeroOrbit>
+          <HeroOrbit size={440} rotate={79}>
+            <SparkleIcon className="size-5 text-emerald-300/20" />
+          </HeroOrbit>
+          <HeroOrbit size={530} rotate={178}>
+            <SparkleIcon className="size-10 text-emerald-300/20" />
+          </HeroOrbit>
+          <HeroOrbit size={710} rotate={144}>
+            <SparkleIcon className="size-14 text-emerald-300/20" />
+          </HeroOrbit>
+          <HeroOrbit size={720} rotate={85}>
+            <div className="size-3 rounded-full bg-emerald-300/20" />
+          </HeroOrbit>
+
+          <HeroOrbit size={520} rotate={-41}>
+            <div className="size-2 rounded-full bg-emerald-300/20" />
+          </HeroOrbit>
+          <HeroOrbit size={620} rotate={-5}>
+            <div className="size-3 rounded-full bg-emerald-300/20" />
+          </HeroOrbit>
+        </div>
       </div>
 
       <div className="hero-circle size-[1220px]"></div>
