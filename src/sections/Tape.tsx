@@ -37,7 +37,7 @@ export const TapeSection = () => {
             {words.map((word, index) => (
               <div key={index} className="inline-flex gap-4 items-center">
                 <span className="text-gray-900 uppercase font-extrabold text-sm">
-                  {word}
+                  {word} taper
                 </span>
                 <StarIcon className="size-6 text-gray-900 -rotate-12" />
               </div>
